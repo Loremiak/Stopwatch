@@ -1,0 +1,38 @@
+@media screen and (min-width: 1px) {
+	.time {
+		font-size: 6rem;
+	}
+	.btn {
+		width: 70px;
+		height: 40px;
+	}
+}
+@media screen and (min-width: 576px) {
+	.time {
+		font-size: 8rem;
+	}
+	.btn {
+		width: 70px;
+		height: 40px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.time {
+		font-size: 11rem;
+	}
+	.btn {
+		width: 8vw;
+		height: 6vh;
+		font-size: 1.25rem;
+	}
+}
+@media screen and (min-width: 992px) {
+	.time {
+		font-size: 14rem;
+	}
+	.btn {
+		width: 8vw;
+		height: 6vh;
+		font-size: 1.25rem;
+	}
+}

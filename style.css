@@ -1,0 +1,36 @@
+body {
+	background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 55));
+	font-size: 20px;
+}
+.container {
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: "VT323", monospace;
+}
+.text {
+	font-size: 1.5rem;
+	font-style: italic;
+	color: goldenrod;
+}
+
+.time {
+	color: white;
+	font-size: 14rem;
+}
+.btn {
+	width: 8vw;
+	height: 6vh;
+	color: rgb(0, 0, 55);
+	background-color: gold;
+	border: none;
+	font-size: 1.25rem;
+}
+.btn:hover {
+	background-color: goldenrod;
+	font-weight: bold;
+}
