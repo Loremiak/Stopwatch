@@ -1,16 +1,13 @@
-// Declaare variables
 let ms = 0,
 	s = 0,
 	m = 0;
 let mili = document.querySelector("#milisec");
 let sec = document.querySelector("#seconds");
 let min = document.querySelector("#minutes");
-let interval; // Declare interval
+let interval;
 let startBtn = document.querySelector("#start-btn");
 let pauseBtn = document.querySelector("#pause-btn");
 let resetBtn = document.querySelector("#reset-btn");
-
-// Declare buttons
 
 startBtn.addEventListener("click", () => {
 	clearInterval(interval);
@@ -28,8 +25,6 @@ resetBtn.addEventListener("click", () => {
 	sec.innerHTML = s;
 	min.innerHTML = m;
 });
-
-// Set function startTime
 
 function startTime() {
 	ms++;
