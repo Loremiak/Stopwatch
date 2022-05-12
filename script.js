@@ -26,7 +26,7 @@ resetBtn.addEventListener("click", () => {
 	min.innerHTML = m;
 });
 
-function startTime() {
+const startTime = () => {
 	ms++;
 	if (ms < 9) {
 		mili.innerHTML = "0" + ms;
@@ -49,4 +49,4 @@ function startTime() {
 		s = 0;
 		sec.innerHTML = "0" + s;
 	}
-}
+};

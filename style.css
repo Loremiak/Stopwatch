@@ -9,17 +9,11 @@
 html,
 body {
 	height: 100%;
-}
-
-html {
 	scroll-behavior: smooth;
 }
 
 button {
 	font-family: inherit;
-}
-
-button {
 	border: none;
 	cursor: pointer;
 }
